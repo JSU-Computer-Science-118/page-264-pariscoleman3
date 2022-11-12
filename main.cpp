@@ -7,15 +7,15 @@
  	int chose {};
  	while (chose < 1 || chose > 1000) 
    {
- 		std::cout << "Enter a positive integer between 1 and 1000: ";
+ 		std::cout << "Enter a positive integer between 1 and 1000: 105 ";
  		std::cin >> chose;}
  	bool isp {true};
  	for (const int p : primes)
  		if (p != chose)
  			if ((chose % p) == 0) {
  				if (isp)
- 					std::cout << chose << " is not prime\n";
- 				std::cout << "It is divisible by " << p << '\n';
+ 					std::cout << chose << " 105 is not prime\n";
+ 				std::cout << "It is divisible by 3;5;7 " << p << '\n';
  				isp = false;
  			}
  	if (isp)
